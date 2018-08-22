@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin|Lobster|Roboto+Slab:100,700');
+
+body{
+    background-color: #57343a;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+    margin-top: 114px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Lobster';
+    font-weight: 400;
+    color: #a76581;
+}
+
+p{
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.centered{
+    text-align: center;
+}
+
+a{
+    color: #a76581;
+}
+
+a:hover, a:focus{
+    color: white;
+    text-decoration: none;
+    outline: 0;
+}
+
+hr{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #a76581;
+    margin: 1em;
+    padding: 0;
+}
+
+.navbar{
+    font-weight: 800;
+    font-size: 14px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    z-index: 100;
+}
+
+.navbar-inverse {
+    background: rgba(0,0,0,0);
+    border-color: rgba(0,0,0,0);
+}
+.navbar-inverse .navbar-nav > .active > a{
+
+}
+@media (max-width: 767px){
+    .navbar-inverse .navbar-nav > .active > a{
+
+    }
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    display: block;
+    text-decoration: none;
+    background: none;
+    font-family: 'Lobster';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 50px;
+    color: #e8a3a8;
+    text-shadow: none;
+    padding: 0px 24px;
+    border: none;
+    margin: 0;
+}
+
+@media (max-width: 1200px) and (min-width: 768px){
+    .navbar-inverse .navbar-nav > li > a {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 20px;
+    }
+}
+@media (max-width: 991px) and (min-width: 768px){
+    .navbar_ .nav.left {
+        padding-right: 50px;
+    }
+}
+
+.navbar_ .nav.left {
+    float: left;
+    padding-right: 70px;
+    padding-left: 70px;
+}
+@media (max-width: 991px) and (min-width: 768px){
+    .navbar_ .nav.right {
+        padding-left: 50px;
+    }
+}
+
+.navbar_ .nav.right {
+    float: right;
+    padding-left: 70px;
+}
+
+.navbar_ .nav {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: block;
+    float: none;
+    text-align: center;
+    padding-top: 12px;
+}
+header {
+    position: absolute;
+    left: 50%;
+    margin-left: -90px;
+    top: 5px;
+    z-index: -30;
+}
+@media (max-width: 991px) and (min-width: 768px){
+    header {
+        max-width: 100px;
+        margin-left: -50px;
+    }
+}
+@media (max-width: 767px){
+    .navbar_ .nav.left {
+        padding: 0;
+        float: none;
+        width: auto;
+    }
+}
+@media (max-width: 767px){
+    .navbar_ .nav.right {
+        padding: 0;
+        float: none;
+        width: auto;
+    }
+}
+
+@media (max-width: 767px){
+    .navbar_ .nav {
+        display: block;
+        background: none;
+        border-right: none;
+        background: #a76581;
+        border: none;
+    }
+}
+
+@media (max-width: 767px){
+    header {
+        max-width: 100px;
+        margin-left: 0;
+        left: 0;
+        z-index: 31;
+    }
+}
+
+@media (max-width: 767px){
+    .navbar-collapse_ {
+        clear: both;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+}
+
+.navbar_ .navbar-toggle {
+    background: #a76581;
+}
+.navbar_ .navbar-toggle .navbar-toggle:hover, .navbar_ .navbar-toggle:focus {
+    background: #a76581;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus{
+    background-color: rgba(0,00,0,0);
+}
+@media (min-width: 992px)
+.container {
+    width: 970px;
+}
+@media (min-width: 768px)
+.container {
+    width: 750px;
+}
+.headerwrap{
+    position: relative;
+}
+.headerwrap img{
+    width: 100%;
+    vertical-align: middle;
+}
+.flex-caption {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 50%;
+    margin-top: -62px;
+    text-align: left;
+}
+@media (max-width: 991px){
+    .flex-caption {
+        margin-top: -50px;
+    }
+}
+
+@media (max-width: 767px){
+    .flex-caption {
+        margin-top: -40px;
+        text-align: center;
+    }
+}
+
+.flex-caption .txt1 {
+    font-family: 'Lobster';
+    font-weight: 400;
+    font-size: 62px;
+    line-height: 1;
+    color: #57343a;
+    padding-bottom: 0px;
+}
+@media (max-width: 991px){
+    .flex-caption .txt1 {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 767px){
+    .flex-caption .txt1 {
+        font-size: 40px;
+    }
+}
+@media (max-width: 480px){
+    .flex-caption .txt1 {
+        font-size: 25px;
+    }
+}
+
+
+.flex-caption .txt2 {
+    font-family: 'Roboto Slab';
+    font-weight: 300;
+    font-size: 62px;
+    line-height: 1;
+    color: #a76581;
+}
+@media (max-width: 991px){
+    .flex-caption .txt2 {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 767px){
+    .flex-caption .txt2 {
+        font-size: 40px;
+    }
+}
+@media (max-width: 480px){
+    .flex-caption .txt2 {
+        font-size: 25px;
+    }
+}
+
+
+#cakes {
+    background: url(../images/cakes_bg.jpg) center top no-repeat #d3dee8;
+    background-size: cover;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.page_title {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 36px;
+    line-height: 1.1;
+    font-family: 'Lobster';
+    font-weight: 400;
+    color: #a76581;
+    position: relative;
+    display: inline-block;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.txt {
+    display: block;
+    font-family: 'Roboto Slab';
+    font-weight: 700;
+    font-size: 16px;
+    color: #262428;
+    line-height: 1.75;
+    padding: 0;
+    margin: 0 0 10px;
+}
+
+.banner_wrapper {
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 0px;
+}
+#cakes img{
+    border-radius: 50%;
+}
+#overlay{
+    padding-top: 130px;
+    padding-bottom: 140px;
+    color:white;
+}
+#overlay .txt1{
+    font-family: 'Roboto Slab';
+    font-size: 48px;
+    line-height: 1.1;
+    font-weight: 400;
+}
+#overlay .txt2{
+    font-family: 'Lobster';
+    font-size: 32px;
+    line-height: 1.1;
+}
+#services{
+    position: relative;
+    background: #e5e1da;
+    padding-top: 80px;
+    padding-bottom: 90px;
+    overflow: hidden;
+}
+#services .page_title {
+    color: #57343a;
+}
+.box1 {
+    width: 502px;
+    height: 541px;
+    background: url(img/box1.png) 0 0 no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.box1_content {
+    padding: 75px 130px 20px 125px;
+}
+.box1_content .title {
+    font-family: 'Cabin Sketch';
+    font-size: 36px;
+    line-height: 1.1;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.ul1 {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: 'Cabin Sketch';
+    font-weight: 400;
+}
+.ul1 > li {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.ul1 > li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 5px 0px 5px 40px;
+    background: url(img/li_st1.png) left center no-repeat;
+}
